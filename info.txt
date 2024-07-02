@@ -1,10 +1,18 @@
-command for JWT : openssl ran base64 32;
+.env : {
+    port
+    mongo_db_uri
+    jwt_secret
+    node_env : "development"
+}
 
-all the npm to download:
- express
- dotenv
- cookie-parser
- bcryptjs
- mongoose
- socket.io
- jsonwebtoken
+command to generate random JWT : openssl ran base64 32;
+
+npm : {
+    express
+    dotenv
+    cookie-parser
+    bcryptjs
+    mongoose
+    socket.io
+    jsonwebtoken
+}
