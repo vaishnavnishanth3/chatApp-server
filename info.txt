@@ -1,0 +1,10 @@
+command for JWT : openssl ran base64 32;
+
+all the npm to download:
+ express
+ dotenv
+ cookie-parser
+ bcryptjs
+ mongoose
+ socket.io
+ jsonwebtoken
