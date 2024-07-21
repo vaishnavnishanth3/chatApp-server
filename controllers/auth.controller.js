@@ -23,7 +23,7 @@ async function login(req,res) {
         })
 
    } catch (error) {
-        console.log("Error is signup controller", error.message)    
+        console.log("Error in signup controller", error.message)    
         res.status(500).json({error: "Internal Server Error" + error.message})
    }
 }

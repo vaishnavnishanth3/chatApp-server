@@ -22,5 +22,5 @@ app.use("/api/messages", messageRoutes)
 
 app.listen(port, () => {
     connectToMongoDB();
-    console.log(`Server is running on port ${port}`);
+    console.log(`Server is running on port http://localhost:${port}`);
 })
